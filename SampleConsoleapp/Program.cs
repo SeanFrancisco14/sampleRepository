@@ -6,7 +6,7 @@ namespace SampleConsoleapp
     {
         static void Main(string[] args)
         {
-            string[] Names = {"John", "Raye", "Mike"};
+            string[] Names = {"John", "Raye", "Mike", "Pam", "Carlo"};
 
             Console.WriteLine(Names[1]);
             Console.ReadLine();
