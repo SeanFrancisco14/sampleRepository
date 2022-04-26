@@ -14,8 +14,7 @@ namespace SampleConsoleapp
             Random rndPlaces = new Random();
             int indexPlaces = rndPlaces.Next(Places.Length);
 
-            Console.WriteLine(Places[0]);
-            Console.WriteLine(Names[1]);
+            
             Console.WriteLine($"{Names[indexNames]} is at {Places[indexPlaces]}");
             Console.ReadLine();
         }
